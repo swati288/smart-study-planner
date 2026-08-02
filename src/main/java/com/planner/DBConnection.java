@@ -11,7 +11,7 @@ public class DBConnection {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
-            String url = "jdbc:mysql://localhost:3306/marksheetdb"; // your DB name
+            String url = "jdbc:mysql://localhost:3306/studyplanner"; // your DB name
             String user = "root";
             String pass = "root"; // your MySQL password
 
