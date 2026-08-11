@@ -27,7 +27,7 @@ throws IOException {
 
         ps.executeUpdate();
 
-        res.sendRedirect("dashboard.jsp");
+        res.sendRedirect("viewTask.jsp");
 
     }catch(Exception e){
         res.getWriter().println(e);
